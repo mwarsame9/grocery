@@ -9,7 +9,13 @@ $(document).ready(function() {
     var placeInput = $("input#place").val();
     var favorites = [movieInput, iceCreamInput, colorInput, carInput, drinkInput, placeInput]
 
-    console.log(favorites[2],favorites[0],favorites[3]);
+  
+    // var cloneArray = favorites.slice();
+    var newArray = [];
+    newArray.push(favorites[2],favorites[0],favorites[3]);
+
+    console.log(newArray);
+
 
 
 
