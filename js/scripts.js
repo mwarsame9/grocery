@@ -9,7 +9,7 @@ $(document).ready(function() {
     var placeInput = $("input#place").val();
     var favorites = [movieInput, iceCreamInput, colorInput, carInput, drinkInput, placeInput]
 
-  
+
     // var cloneArray = favorites.slice();
     var newArray = [];
     newArray.push(favorites[2],favorites[0],favorites[3]);
@@ -17,9 +17,9 @@ $(document).ready(function() {
     console.log(newArray);
 
 
-
-
-    // $("#result").show()
+    $(".li1").text(newArray[0]);
+    $(".li2").text(newArray[1]);
+    $(".li3").text(newArray[2]);
 
 
 
